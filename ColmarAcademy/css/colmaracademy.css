@@ -1,0 +1,395 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 16px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif ;
+   color: #989898;
+}
+
+/* Common Styles */
+h1 { font-size: 30px;}
+h2 { font-size: 24px;}
+h3 { font-size: 22px;}
+h4 { font-size: 20px;}
+h5 { font-size: 18px;}
+
+h1 {
+       font-weight: bold;
+}
+
+h1, h2, h3, h4, h5 {
+    color:#4f4f4f;
+}
+
+header {
+    display: flex;
+    width: 100%;
+    height: 64px;
+    align-items: center;
+    padding: 0px 24px;
+}
+
+header div {
+    display: flex;
+    align-items: center;
+  
+    }
+
+ .colmar {
+     color: #01161e;
+    }
+
+.academy {
+    color: ##9f9b9b;
+}
+
+ nav {
+    display: flex;
+    width: 100%;
+    justify-content: flex-end;
+}
+    
+nav a {
+        color: #989898;
+     padding: 0px 8px;
+ }   
+/* Learn Something */
+ .container0  {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: #c4c2c2;
+   }
+
+
+ .container1  {
+               width: 100%;
+         padding: 32px 24px;
+         
+    }
+
+ .container2 {
+    display: flex;
+    flex-direction: column;
+     justify-content: start;
+    align-items: start;
+    margin: auto;
+    width: 40%;
+  
+
+ }
+ .container2 h1 {
+    padding: 8px 0px;
+ }
+
+ .container2 h4{
+    padding: 8px 0px;
+ }
+
+.startherebutton {
+    background-color: #515151;
+    width:60%;
+    padding: 8px;
+    color:white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+
+}
+/* Practice Section */
+.container3 {
+    display: flex;
+    align-items: start;
+    width: 100%;
+    margin: auto;
+    padding: 32px 24px;
+}
+
+.practice {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    margin: auto;
+    width: 60%;
+    padding: 32px 24px;
+  }
+
+.practice img {
+    padding-bottom: 32px;
+}
+
+.practice1 {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: start;
+    padding: 32px 0px;
+}
+
+.practice1 h2, p {
+    padding-bottom: 24px;
+}
+
+.practice1 p {
+    text-align: left;
+}
+/* Right Section */
+.Orientation   {
+    display:flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: start;
+    padding: 32px 24px;
+    
+}
+
+.Orientationinner {
+    display:flex;
+    align-items: center;
+    text-align: left;
+}
+
+.Orientationinner img {
+  padding: 16px 16px;
+}
+
+.guestlecture {
+    background-color: #e1dfdf;
+}
+
+.Orientation1  { 
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: start;
+    justify-content: center;
+    padding: 16px 16px;
+    
+}
+
+.Orientation > div > img {
+    height:auto;
+    width: 35%;
+}
+
+/*Start Learning*/
+
+.start-learning {
+    background-color: #e1dfdf;
+    text-align: center;
+    margin: auto;
+    padding: 32px 0px;
+    }
+
+
+
+.start-learning-image  {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 32px 72px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  
+  
+}
+
+.start-learning-image h4{
+    padding: 16px 16px;
+   
+}
+
+
+
+.start-learning-text{
+    background-color: white;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: start;
+  justify-content: center;
+  padding: 12px 56px;
+}
+
+
+.start-learning {
+    padding: 0px 32px;
+    
+}
+
+/* Start of Thesis  */
+
+
+.thesis {
+    
+     width: 100%;
+    margin: auto;
+    padding: 32px 24px;
+   
+}
+.videoflex {
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    
+}
+
+.thesispractice {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    margin: auto;
+    width: 60%;
+    padding: 32px 24px;
+   
+  }
+
+.thesispractice video {
+    width: 60%;
+    padding-bottom: 32px;
+}
+
+.thesis1 {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: start;
+    padding: 32px 0px;
+}
+
+.thesis1 h3, p {
+    padding-bottom: 24px;
+}
+
+.thesis1 p {
+    text-align: left;
+}
+/* Right Section */
+.Fisma   {
+    width: 40%;
+    display:flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: start;
+    padding: 32px 24px;
+    
+}
+
+.Fismainner {
+    display:flex;
+    align-items: center;
+    text-align: left;
+}
+
+.Fismainner img {
+  padding: 16px 16px;
+}
+
+.thesis1  { 
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: start;
+    justify-content: center;
+    padding: 16px 16px;
+    
+}
+
+.Fisma > div > img {
+    height:auto;
+    width: 35%;
+}
+
+
+
+
+@media screen and (max-width:720px)
+
+{
+    header div {
+        display:none;
+    }
+    nav {
+        display:none;
+        height: 64px;
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+    }
+
+    nav {
+        display: block;
+        <a href="#"><img src="images/ic-logo.svg"></a>
+        <a href="#"><img src="images/ic-on-campus.svg"></a>
+        <a href="#"><img src="images/Ic-online.svg"></a>
+        <a href="#"><img src="images/iclogin.svg"></a>
+        
+    }
+    section {
+        flex-direction: column;
+    }
+    .container1 {
+        width: 100%;
+    }
+    .container2 {
+        width: 100%;
+        padding: 32px;
+        align-items: center;
+        text-align: center;
+    }
+    .container2 h1 {
+        padding-bottom: 16px;
+    }
+
+    .container2 h2 {
+        padding-bottom: 8px;
+    }
+    .start-learning img {
+        display:none;
+    }
+ .practice {
+    display:none;
+ }
+
+ .orientation {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+ }
+    .thesis {
+        width: 100%;
+        height: 100%;
+    }
+
+
+    .thesis1 {
+        display: none;
+    }
+
+    .Fisma {
+        display: none;
+    }
+.start-learning-image {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+   }
+ .start-learning-text h4 {
+    padding: 16px 0px;
+ }
+
+ .start-learning-text p {
+    display: none;
+    
+ }
+}
+
+
+
